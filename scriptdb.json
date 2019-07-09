@@ -1,0 +1,123 @@
+db.getCollection("smoothies").insertMany([
+    { 
+    "title" : "Smoothie a la fraise",
+        "ingredients" : [
+            {
+                "nom" : "Fraises",
+                "quantité" : "75g",
+            },
+            {
+                "nom":"Eau",
+                "quantité" : "20cl",
+            }       
+                ],
+        "features" :   {
+                        "cost" :"1 euro",
+                        "prepareTime":"5 minutes",
+                    },
+        "advice" : "utiliser des fraises mûres. Ajouter 2 ou 3 feuilles de menthe",
+        "description" :"smoothie rafraichissant parfait pour la saison",
+        "steps" :[
+            {
+                "stepText" : "Laver les fraises à l\"eau claire",
+            },
+            {
+                "stepText" : "Equeuter les fraises",
+            },
+            {
+                "stepText" : "Placer les fraises dans le bol du mixer avec la menthe selon les goûts",
+            },
+            {
+                "stepText" : "Ajouter l\"eau",
+            },
+            {
+                "stepText" : "Mixer une minute",
+            },
+            {
+                "stepText" : "Servir dans un grand verre",
+            }
+        ],
+  },{ 
+    "title" : "Smoothie a la mangue",
+        "ingredients" : [
+            {
+                "nom" : "Mangue",
+                "quantité" : "1",
+            },
+            {
+                "nom" : "Eau",
+                "quantité" : "20cl",
+            }       
+                ],
+        "features" :   {
+                        "cost" :"5 euro",
+                        "prepareTime": "5 minutes",
+                    },
+        "advice" : "utiliser une mangue par avion. Possibilité d'ajouter une gousse de vanille a la preparation ",
+        "description" :"Le top du smoothie mangue",
+        "steps" :[
+            {
+                "stepText" : "Laver la mangue",
+            },
+            {
+                "stepText" : "Couper la mangue en deux dans le sens de la longueur. Longer de noyau de chaque coté afin de recuperer la chair du fruit",
+            },
+            {
+                "stepText" : "Retirer la peau et couper la mangue en cube",
+            },
+            {
+                "stepText" : "Placer dans le bol du mixer",
+            },
+            {
+                "stepText" : "Ajouter l\"eau",
+            },
+            {
+                "stepText" : "Mixer une minute",
+            },
+            {
+                "stepText" : "Servir dans un grand verre",
+            }
+        ],
+  },{ 
+    "title" : "Smoothie banane-kiwi",
+        "ingredients" : [
+            {
+                "nom" : "kiwi",
+                "quantité" : "2",
+            },{
+                "nom" : "banane",
+                "quantité" : "1",
+            },
+            {
+                "nom" : "glace ",
+                "quantité" : "6 glacons",
+            },{
+                "nom" : "crème de coco",
+                "quantité" : "20cl",
+            },       
+                ],
+        "features" :   {
+                        "cost" :"6 euro",
+                        "prepareTime": "8 minutes",
+                    },
+        "advice" : "Un bon moyen de passer des bananes très mures",
+        "description" :"Un voyage dans les îles",
+        "steps" :[
+            {
+                "stepText" : "pelez et coupez la banane en rondelles",
+            },
+            {
+                "stepText" : "Pelez les kiwis et coupez-les en morceaux.",
+            },
+            {
+                "stepText" : "Mettez les fruits dans le blender, ajoutez la crème et les glaçons",
+            },
+            {
+                "stepText" : "Mixer environ 2 minutes  jusqu’à obtention d’une boisson mousseuse",
+            },
+            {
+                "stepText" : "Servir dans un grand verre",
+            }
+        ],
+  },
+]);
